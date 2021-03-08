@@ -1,1 +1,1 @@
-# SDUCourseSelectionScript
+# 山东大学选课脚本
