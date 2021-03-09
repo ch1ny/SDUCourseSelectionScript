@@ -7,8 +7,8 @@
 	// @update	 初代版本，完成基本功能的实现
 */
 
-var kch = ['sd03111580']; // 课程号
-var kxh = ['602']; // 课序号
+var kch = []; // 课程号
+var kxh = []; // 课序号
 var frequency = 300; // Interval频率，单位ms，默认300ms，可自行修改
 
 var page = []; // 用来储存所需课程所在页码
@@ -77,7 +77,7 @@ function select() {
 					type: "POST",
 					url: url,
 					success(msg) {
-						alert(msg.msg);
+						console.log(msg.msg);
 					}
 				});
 			} else {
