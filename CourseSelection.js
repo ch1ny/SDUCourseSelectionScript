@@ -9,10 +9,11 @@
 
 var kch = ['sd03111580']; // 课程号
 var kxh = ['602']; // 课序号
+var frequency = 300; // Interval频率，单位ms，默认300ms，可自行修改
+
 var page = []; // 用来储存所需课程所在页码
 var pageIndex = []; // 用来储存所需课程所在页的索引
 var searchInterval, selectInterval; // 搜索循环， 选课循环
-var frequency = frequency; // Interval频率，单位ms
 var pagenum = 0;
 var num = 0;
 
