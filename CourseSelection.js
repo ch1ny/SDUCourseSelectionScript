@@ -36,7 +36,7 @@ function search() {
 					if (testlist[j].KCH == kch[k] && testlist[j].KXH == kxh[k]) {
 						page.push(msg.object.currentPage)
 						pageIndex.push(j)
-						console.log(msg.object.currentPage, j)
+						console.log("您所选择的课程：" + testlist[j] + " 在第 " + msg.object.currentPage + " 页的第 " + j + "项");
 					}
 				}
 			}
@@ -67,7 +67,7 @@ function select() {
 		success(msg) {
 			var result = msg.object.resultList[pageIndex[num]];
 			num++;
-			if (num == page.length){
+			if (num == page.length) {
 				num = 0;
 			};
 			if (result.kyl > 0) {
