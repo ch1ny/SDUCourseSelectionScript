@@ -81,7 +81,7 @@ function select() {
 					}
 				});
 			} else {
-				console.log(result.KCM + "目前暂无课余量\n")
+				console.log(result.KCM + " 目前暂无课余量")
 			}
 		}
 	});
