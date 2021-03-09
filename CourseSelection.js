@@ -12,6 +12,7 @@ var kxh = ['602']; // 课序号
 var page = []; // 用来储存所需课程所在页码
 var pageIndex = []; // 用来储存所需课程所在页的索引
 var searchInterval, selectInterval; // 搜索循环， 选课循环
+var frequency = frequency; // Interval频率，单位ms
 var pagenum = 0;
 var num = 0;
 
@@ -42,7 +43,7 @@ function search() {
 			if (msg.object.currentPage == msg.object.totalPages) {
 				clearInterval(searchInterval);
 				console.log('查找完毕');
-				selectInterval = setInterval(select, 300);
+				selectInterval = setInterval(select, frequency);
 			}
 		}
 	});
