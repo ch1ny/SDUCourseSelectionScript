@@ -4,7 +4,7 @@
 	// @description  提供课程号与课序号，自动挂机选课
 	// @author       德布罗煜(シエラ)
 	// @match        http://bkjwxk.sdu.edu.cn/f/common/main
-	// @update		 初代版本，完成基本功能的实现
+	// @update	 初代版本，完成基本功能的实现
 */
 
 var kch = ['sd03111580']; // 课程号
