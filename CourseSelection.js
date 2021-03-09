@@ -7,8 +7,8 @@
 	// @update       加入了自动终止的功能，减少不必要的访问
 */
 
-var kch = ['sd00911390', 'sd01111000']; // 课程号
-var kxh = ['600', '600']; // 课序号
+var kch = []; // 课程号
+var kxh = []; // 课序号
 var frequency = 300; // Interval频率，单位ms，默认300ms，可自行修改
 
 var page = []; // 用来储存所需课程所在页码
